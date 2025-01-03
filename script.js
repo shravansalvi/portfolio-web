@@ -1,4 +1,9 @@
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    alert("Your message has been sent!");
-    event.preventDefault(); // Prevent form from submitting for this demo
+// Smooth Scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
