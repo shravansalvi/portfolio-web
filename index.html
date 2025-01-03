@@ -1,103 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Google Fonts Import -->
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shravan Rakesh Salvi - Portfolio</title>
+    <title>Shravan's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <h1 class="logo">Shravan Rakesh Salvi</h1>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Shravan</div>
+        <nav>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Hi, I'm Shravan Rakesh Salvi</h2>
-            <p class="role">A Multi-Talented Developer</p>
-            <p class="description">Proficient in a wide range of tools and languages, delivering exceptional results in development and design.</p>
-            <a href="#contact" class="btn">Contact Me</a>
-        </div>
-        <div class="hero-image">
-            <img src="profile.jpg" alt="Shravan Rakesh Salvi">
-        </div>
+        <img src="profile.jpg" alt="Shravan's Profile Picture">
+        <h2>Hello, I'm Shravan</h2>
+        <p>A passionate developer and designer creating seamless experiences.</p>
+        <a href="#contact" class="btn">Contact Me</a>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
         <h2>About Me</h2>
         <p>
-            Hello! I'm Shravan Rakesh Salvi, a dedicated developer and designer with a strong foundation in programming, creative tools, and user-centric design. I specialize in crafting intuitive user experiences, efficient applications, and innovative solutions to complex challenges. My goal is to merge technical expertise with creativity to deliver impactful and high-quality results.
-
-
+            Hello! I'm Shravan, a dedicated developer and designer with expertise in creating user-friendly and visually
+            appealing websites and applications.
         </p>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills" class="skills">
         <h2>Skills</h2>
         <div class="skill">
-            <p>HTML, CSS, JavaScript</p>
+            <p>HTML & CSS</p>
             <div class="progress">
-                <div class="progress-bar" style="width: 85%;">85%</div>
+                <div class="progress-bar" style="width: 90%;"></div>
             </div>
         </div>
         <div class="skill">
-            <p>Python</p>
+            <p>JavaScript</p>
             <div class="progress">
-                <div class="progress-bar" style="width: 70%;">70%</div>
-            </div>
-        </div>
-        <div class="skill">
-            <p>C, C++</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 75%;">75%</div>
+                <div class="progress-bar" style="width: 80%;"></div>
             </div>
         </div>
         <div class="skill">
             <p>SQL</p>
             <div class="progress">
-                <div class="progress-bar" style="width: 65%;">65%</div>
+                <div class="progress-bar" style="width: 70%;"></div>
             </div>
         </div>
         <div class="skill">
-            <p>Canva, CapCut</p>
+            <p>C & C++</p>
             <div class="progress">
-                <div class="progress-bar" style="width: 80%;">80%</div>
+                <div class="progress-bar" style="width: 75%;"></div>
             </div>
-        </div>
-        <div class="skill">
-            <p>Microsoft Office</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 90%;">90%</div>
+            <div class="skill">
+                <p>Microsoft Office </p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <p>Capcut</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 100;"></div>
+                    </div>
+                    <div class="skill">
+                        <p>Figma</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <form action="submit.php" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+        <p>Feel free to reach out to me via email at <a
+                href="mailto:shravanrakeshsalvi@gmail.com">shravanrakeshsalvi@gmail.com</a></p>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Shravan Rakesh Salvi. All rights reserved.</p>
-    </footer>
-
     <script src="script.js"></script>
 </body>
+
 </html>
