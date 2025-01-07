@@ -17,6 +17,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-toggle" id="mobile-menu">
@@ -30,9 +31,9 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <img src="profile.jpg" alt="Shravan's Profile Picture">
-        <h2>Hello, I'm Shravan</h2>
-        <p>A passionate developer and designer creating seamless experiences.</p>
-        <a href="#contact" class="btn">Contact Me</a>
+        <h1>Hi, I'm Shravan</h1>
+        <p>Web Developer | Designer | Creator</p>
+        <a href="#portfolio" class="btn">View Portfolio</a>
     </section>
 
     <!-- About Section -->
@@ -49,54 +50,74 @@
         <h2>Skills</h2>
         <div class="skill">
             <p>HTML & CSS</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 90%;"></div>
+            <div class="progress-bar">
+                <div class="progress" style="--width: 90%;"></div>
             </div>
         </div>
         <div class="skill">
             <p>JavaScript</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 80%;"></div>
+            <div class="progress-bar">
+                <div class="progress" style="--width: 80%;"></div>
             </div>
         </div>
         <div class="skill">
             <p>SQL</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 70%;"></div>
+            <div class="progress-bar">
+                <div class="progress" style="--width: 70%;"></div>
             </div>
         </div>
         <div class="skill">
             <p>C & C++</p>
-            <div class="progress">
-                <div class="progress-bar" style="width: 75%;"></div>
+            <div class="progress-bar">
+                <div class="progress" style="--width: 75%;"></div>
             </div>
-            <div class="skill">
-                <p>Microsoft Office </p>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 90%;"></div>
-                </div>
-                <div class="skill">
-                    <p>Capcut</p>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 100;"></div>
-                    </div>
-                    <div class="skill">
-                        <p>Figma</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 30%;"></div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="skill">
+            <p>Microsoft Office</p>
+            <div class="progress-bar">
+                <div class="progress" style="--width: 90%;"></div>
             </div>
+        </div>
+        <div class="skill">
+            <p>Capcut</p>
+            <div class="progress-bar">
+                <div class="progress" style="--width: 100%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Figma</p>
+            <div class="progress-bar">
+                <div class="progress" style="--width: 30%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Work</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Description of the project.</p>
+            <a href="#" class="btn">View Project</a>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <p>Feel free to reach out to me via email at <a
-                href="mailto:shravanrakeshsalvi@gmail.com">shravanrakeshsalvi@gmail.com</a></p>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Shravan. All Rights Reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 
